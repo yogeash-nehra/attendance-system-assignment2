@@ -5,10 +5,16 @@ const LecturerDashboard = () => {
     return (
         <div>
             <h2>Lecturer Dashboard</h2>
-            <ul>
-                <li><Link to="/college-days">Manage College Days</Link></li>
-                <li><Link to="/attendance">Mark Attendance</Link></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li>
+                        <Link to="/lecturer-classes">Manage Classes</Link>
+                    </li>
+                    <li>
+                        <Link to="/lecturer-attendance">Enter Attendance</Link>
+                    </li>
+                </ul>
+            </nav>
         </div>
     );
 };
